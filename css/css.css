@@ -1,0 +1,60 @@
+@keyframes anim {
+    0%{
+        transform: rotate(0) translateX(0);
+    }
+    50%{
+        transform: rotate(360deg) translateX(400px);
+    }
+    100% {
+        transform: rotate(0) translateX(0);
+    }
+    
+}
+
+/*.circle {*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    background: purple;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+.figure {
+    width: 120px;
+    height: 120px;
+    background: red;
+    border-radius: 10%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    flex-wrap:wrap;
+    margin: 0 auto;
+}
+
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background: #1d1d1d;
+    margin: 2px;
+    transition: 1s ease;
+    box-shadow: 0 0 3px #000000;
+    border-radius: 10%;
+}
+.square:hover {
+    transition-duration: 0s;
+}
